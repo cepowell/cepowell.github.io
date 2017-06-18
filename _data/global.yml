@@ -1,6 +1,9 @@
 # Site Settings
 title: 'Cait Powell'
 description: 'Interdisciplinary writer and computer scientist.'
+email: 'cait.powell.92@gmail.com'
+author: 'Cait Powell'
+
 # Dev URL
 # url: 'http://127.0.0.1:4000/'
 # Prod URL

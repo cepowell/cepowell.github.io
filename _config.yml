@@ -4,7 +4,6 @@ destination: ./_site
 plugins_dir:     ./_plugins
 layouts_dir:     ./_layouts
 data_dir: ./_data
-# collections: null
 
 # Handling Reading
 safe:         false
@@ -22,7 +21,7 @@ unpublished: false
 
 # Plugins
 whitelist: []
-gems:      [jekyll-paginate]
+gems:      [jekyll-paginate, jekyll-seo-tag]
 
 # Conversion
 markdown:    kramdown
@@ -60,3 +59,10 @@ kramdown:
   enable_coderay: false
 
 include: ['_pages']
+
+# For SEO tracking
+title: Cait Powell
+description: Interdisciplinary writer and computer scientist.
+email: cait.powell.92@gmail.com
+author: Cait Powell
+url: https://cepowell.github.io
