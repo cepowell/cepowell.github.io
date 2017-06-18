@@ -1,39 +1,8 @@
 ---
-layout: inner
+layout: about
 title: About
 permalink: /about/
 ---
 
-We never thought of findin' a place where we belong. Don't have to stand alone, we'll never let you fall. Don't need permission to decide what you believe. You gotta learn something when we meet you after school. I said jump, down on Jump Street. I said jump, down on Jump Street. Your friends will be there when your back is to the wall. You'll find you'll need us cause there's no one else to call. When it was hopeless a decision is what you need. You'd better be ready cause' your runnin' outta time. Say jump, 21 Jump, Street.
-
-{% highlight javascript %}
-function meow() {
-    return 'meow';
-}
-
-function bark() {
-    return 'woof';
-}
-
-function getRandomAnimal() {
-
-    var animals = [
-        'cat',
-        'dog',
-        'hippo',
-        'lion',
-        'bear',
-        'zebra'
-    ];
-
-    return animals[Math.floor(Math.random()*animals.length)];
-}
-
-console.log(meow());
-console.log(bark());
-console.log(getRandomAnimal());
-{% endhighlight %}
-
-They arrived in fifty mother ships, offering their friendship and advance technology to Earth. Skeptical of the visitors, Mike Donovan and Juliet Parrish infiltrated their ranks and soon discovered some startling secrets. The resistance is all that stands between us... and the visitors.
-
-Once in every lifetime, comes a love like this. Oh I need you, you need me, oh my darling can't you see. Young Ones. Darling we're the Young Ones. Young Ones. Shouldn't be afraid. To live, love, there's a song to be sung. Cause we may not be the Young Ones very long.
+Cait holds a B.A. in English from Scripps College, an M.A. in Interdisciplinary Computer Science from Mills College, and currently works in San Francisco as a software engineer; she specializes in full-stack web development and building technology to address social issues or benefit non-technical fields. Cait is also a published poet and explores hybrid and digital forms in her work. Previously, she taught and mentored girls and young women in STEM and developed teen-appropriate computer science curriculum - you can read about her teaching work
+[here](https://news.digitalmediaacademy.org/2016/03/30/meet-cait-powell-made-by-girls-instructor/). In her free time, Cait trains and performs on aerial silks and aerial rope - you can find videos of her circus exploits on her [Instagram](https://www.instagram.com/cinnamonpeeler/).
