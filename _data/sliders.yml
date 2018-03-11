@@ -4,9 +4,9 @@
   images:
     - src: /img/aerial.jpg
       alt: Bio photo aerial
-    - src: /img/cornwall.jpg
+    - src: /img/cornwall-min.jpg
       alt: Bio photo Cornwall
-    - src: /img/mills.jpg
+    - src: /img/mills-min.jpg
       alt: Bio photo Mills
   settings:
     height: "500"
