@@ -21,7 +21,7 @@ unpublished: false
 
 # Plugins
 whitelist: []
-gems:      [jekyll-paginate, jekyll-seo-tag]
+plugins:      [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 
 # Conversion
 markdown:    kramdown
@@ -62,7 +62,7 @@ include: ['_pages']
 
 # For SEO tracking
 title: Cait Powell
-description: Interdisciplinary writer and computer scientist.
+description: Bay Area poet and software engineer.
 email: cait.powell.92@gmail.com
 author: Cait Powell
 url: https://cepowell.github.io
