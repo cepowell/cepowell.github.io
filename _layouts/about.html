@@ -5,12 +5,7 @@
     {% include page-header.html %}
 
     <div class="row">
-      <div class="col-lg-6">
-        <center>
-          <div class="bio-image"></div>
-        </center>
-      </div>
-      <div class="col-lg-6">
+      <div class="col-lg-10 col-lg-offset-1">
         <center>
           <div style="text-align: justify; margin-top: 30px;">
             {{ content }}
@@ -19,12 +14,96 @@
       </div>
     </div>
 
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <center>
+          {% include slider.html selector="bio_slider" %}
+        </center>
+      </div>
+    </div>
+
     <br/>
     <br/>
 
-    {% include slider.html selector="bio_slider" %}
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <center>
+          <span class="skills-header">Skills</span>
+        </center>
+      </div>
+    </div>
 
+    <div class="row">
+      <div class="col-sm-3">
+        <center>
+          <span class="skills-item">Methodologies</span>
+        </center>
+        <ul>
+          <li>Test- and behavior-driven development </li>
+          <li>Unit, integration, and contract testing</li>
+          <li>Agile development practices</li>
+          <li>Continuous integration</li>
+          <li>API development and consumption</li>
+          <li>JavaScript application architecture and design patterns</li>
+          <li>Browser testing</li>
+          <li>Responsive design</li>
+          <li>HTTP & asynchronous JavaScript </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <center>
+          <span class="skills-item">Languages</span>
+        </center>
+        <ul>
+          <li>JavaScript (incl. ES6) </li>
+          <li>Java </li>
+          <li>Python </li>
+          <li>HTML5 </li>
+          <li>CSS & Sass </li>
+          <li>PHP </li>
+          <li>Ruby </li>
+          <li>Haskell </li>
+          <li>Scheme </li>
+          <li>Scala </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <center>
+          <span class="skills-item">Frameworks</span>
+        </center>
+        <ul>
+          <li>ReactJS </li>
+          <li>NodeJS </li>
+          <li>AngularJS </li>
+          <li>ExpressJS </li>
+          <li>Rails </li>
+          <li>Jekyll </li>
+          <li>KnockoutJS </li>
+          <li>HandlebarsJS </li>
+          <li>Testing frameworks including Enzyme, Mocha,
+          Jasmine, and Protractor </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <center>
+          <span class="skills-item">Dev Tools</span>
+        </center>
+        <ul>
+          <li>Git </li>
+          <li>NPM </li>
+          <li>Webpack </li>
+          <li>Babel </li>
+          <li>Grunt & Gulp </li>
+          <li>Bootstrap </li>
+          <li>MongoDB </li>
+          <li>PostgreSQL </li>
+          <li>Heroku </li>
+          <li>Jenkins</li>
+          <li>StorybookJS</li>
+          <li>Lerna & semantic versioning</li>
+        </ul>
+      </div>
+    </div>
   </div>
-
 
 {% include footer.html %}

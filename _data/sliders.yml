@@ -2,12 +2,12 @@
 - selector: bio_slider
   bullets: true
   images:
+    - src: /img/rmf-color-min.jpg
+      alt: RMF Showcase
     - src: /img/aerial.jpg
-      alt: Bio photo aerial
-    - src: /img/cornwall-min.jpg
-      alt: Bio photo Cornwall
-    - src: /img/mills-min.jpg
-      alt: Bio photo Mills
+      alt: Silks practice
+    - src: /img/mexico-min.jpg
+      alt: Mexico pose
   settings:
-    height: "500"
+    height: "700"
     effect: "'fade'"
