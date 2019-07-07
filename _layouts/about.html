@@ -4,7 +4,7 @@
     {% include page-header.html %}
     <div class="container about-container">
       <div class="row">
-        <div class="col-lg-10 col-lg-offset-1">
+        <div class="col-sm-10 col-sm-offset-1">
           <center>
             <div style="text-align: justify; margin-top: 30px;">
               {{ content }}
@@ -14,7 +14,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-10 col-lg-offset-1">
+        <div class="col-sm-10 col-sm-offset-1">
           <center>
             <img src="../img/cait_headshot2019.jpg" alt="Cait's headshot" class="headshot">
           </center>
@@ -25,17 +25,18 @@
       <br/>
 
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-sm-6">
           <center>
             <div class="social-header"> Instagram </div>
             <p id="instafeed"></p>
           </center>
         </div>
-        <div class="col-lg-6">
+        <div class="col-sm-6">
           <center>
             <div class="social-header right"> Twitter </div>
-            {% twitter https://twitter.com/cait_for_short maxwidth=500 limit=5 %}
-          </center>
+              <a class="twitter-timeline" href="https://twitter.com/cait_for_short?ref_src=twsrc%5Etfw" data-tweet-limit="5">Tweets by cait_for_short</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </center>
         </div>
       </div>
     </div>

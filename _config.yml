@@ -21,7 +21,7 @@ unpublished: false
 
 # Plugins
 whitelist: []
-plugins:      [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-twitter-plugin]
+plugins:      [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 
 # Conversion
 markdown:    kramdown
