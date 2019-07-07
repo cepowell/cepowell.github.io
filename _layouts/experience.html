@@ -1,0 +1,102 @@
+{% include header.html %}
+
+  <div class="container-fluid">
+
+    {% include experience-header.html %}
+
+    <div class="row">
+      <div class="col-md-4">
+        <span class="skills-header">Skills<span>
+      </div>
+
+      <div class="col-md-4">
+        <span class="skills-item">Languages</span>
+        <ul>
+          {% for item in site.data.skills.languages %}
+            <li>{{item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <span class="skills-item">Frameworks & Libraries</span>
+        <ul>
+          {% for item in site.data.skills.frameworks %}
+            <li>{{item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-offset-4 col-md-4">
+        <span class="skills-item">Web Technologies</span>
+        <ul>
+          {% for item in site.data.skills.webtech %}
+            <li>{{item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <span class="skills-item">Tools</span>
+        <ul>
+          {% for item in site.data.skills.tools %}
+            <li>{{item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <br/>
+    <br/>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <span class="skills-header">Experience<span>
+      </div>
+      <div class="col-lg-8">
+        {% for job in site.data.experience.jobs %}
+          <div class="job-item">
+            <div class="job-header">
+              <span class="job-title">{{ job.title }}</span>
+              &nbsp;
+              <span class="job-icon">
+                <img src="{{job.icon}}">
+              </span>
+            </div>
+            <div class="job-details">
+              <a href="{{ job.url }}">{{ job.company }}</a>, {{ job.location }}, {{ job.date }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <br/>
+    <br/>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <span class="skills-header">Education<span>
+      </div>
+      <div class="col-lg-8">
+        {% for school in site.data.experience.schools %}
+          <div class="job-item">
+            <div class="job-header">
+              <span class="job-title">{{ school.degree }}</span>
+              &nbsp;
+              <span class="job-icon">
+                <img src="{{school.icon}}">
+              </span>
+            </div>
+            <div class="job-details">
+              <a href="{{ school.url }}">{{ school.name }}</a>, {{ school.location }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+{% include footer.html %}

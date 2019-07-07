@@ -1,136 +1,83 @@
 {% include header.html %}
 
-  <div class = "container-fluid">
+<div class="container-fluid">
 
-    {% include page-header.html %}
+  {% include poetry-header.html %}
 
-    <center>
-
-      <span style = "font-size: 20px; text-transform:uppercase;display: inline-block; padding-top: 15px; padding-bottom: 15px; font-weight:bold;">2018</span>
+  <center>
+    {% for item in site.data.poetry %}
+      <span class="poetry-year">{{item.year}}</span>
       <div>
-        <span class="work-title">
-          <a href="https://prettyowlpoetry.files.wordpress.com/2018/07/summer2018.pdf">"Church of the Good Shepherd"</a>
-        </span>
-        <br>
-        <span class="work-body">
-          <em>Pretty Owl Poetry</em>, Summer 2018
-        </span>
-
-        <br>
-        &mdash;
-        <br>
-
-        <span class="work-title">
-          <a href="http://www.epigraphmagazine.com/uploads/1/5/6/7/15676572/epigraph_issue_018.pdf">"Letting Slip"</a>
-        </span>
-        <br>
-        <span class="work-body">
-          <em>Epigraph Magazine</em>, June 2018
-        </span>
-
-        <br>
-        &mdash;
-        <br>
-
-        <span class="work-title">
-          <a href="https://static1.squarespace.com/static/557d9defe4b085dc8e579076/t/5b0d944a352f538cbdc090c4/1527616611524/Anomaly+Literary+Journal+Issue+6.pdf">"red line, chicago"</a>
-        </span>
-        <br>
-        <span class="work-body">
-          <em>Anomaly Literary Journal</em>, Spring/Summer 2018
-        </span>
-
-        <br>
-        &mdash;
-        <br>
-
-        <span class="work-title">
-          <a href="http://menacinghedge.com/winter2018/entry-powell.php">"Love in the Time of Apocalypse" and "Vital Organs Missing, 11 p.m."</a>
-        </span>
-        <br>
-        <span class="work-body">
-          <em>Menacing Hedge</em>, Winter 2018
-        </span>
-
-        <br>
-        &mdash;
-        <br>
-
-        <span class="work-title">
-          <a href="http://journal.gonelawn.net/issue27/glj_current.php">"A Manual for Surviving an Accidental Drowning" and "Observations from the Museum of Warfare"</a>
-        </span>
-        <br>
-        <span class="work-body">
-          <em>Gone Lawn</em>, Winter 2018
-        </span>
-
+        {% for entry in item.poems %}
+          <span class="work-title">
+            <a href={{entry.url}}>{{entry.title}}</a>
+          </span>
+          <br>
+          <span class="work-body">
+            <em>{{entry.journal}}</em>, {{entry.issue}}
+          </span>
+          {% if forloop.last == false %}
+            <br>
+            &mdash;
+            <br>
+          {% endif %}
+        {% endfor %}
       </div>
+      {% if forloop.last == false %}
+        <br />
+      {% else %}
+        <div class="row" id="runes">
+          <div class="col-md-4 col-md-offset-4 portfolio-item">
+            <span>
+              <strong>
+                <a href="#runesModal" data-toggle="modal">See more about this piece.</a>
+              </strong>
+            </span>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </center>
 
-      <br/>
+</div>
 
-      <span style = "font-size: 20px; text-transform:uppercase;display: inline-block; padding-top: 15px; padding-bottom: 15px; font-weight:bold;">2017</span>
+{% include footer.html %}
 
-      <div>
-
-        <span class="work-title">
-          <a href="http://boinkzine.com/2017/12/12/unidentified-male-artist/">"Unidentified Male Artist"</a>
-        </span>
-        <br>
-        <span class="work-body">
-          <em>b(OINK)</em>, December 2017
-        </span>
-
-        <br>
-        &mdash;
-        <br>
-
-        <span class="work-title">
-          <a href="http://www.cddc.vt.edu/journals/newriver/17Spring/index.html">The Runes at Uppsala</a>
-        </span>
-        <br>
-        <span class="work-body">
-          <em>The New River Journal</em>, Spring 2017
-        </span>
-
+<div class="portfolio-modal modal fade" id="runesModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
       </div>
-
-      <!-- <br/>
-
-      <span style = "font-size: 20px; text-transform:uppercase;display: inline-block; padding-top: 15px; padding-bottom: 15px; font-weight:bold;">2010 - 2012</span>
-      <div>
-
-        <span class="work-title">
-          "Lost Hills, CA" and "Door Swings Shut"
-        </span>
-        <br>
-        <span class="work-body">
-          <em>The Scripps College Journal</em>, Spring 2011
-        </span>
-        <br>
-        <span class="print">
-          print only
-        </span>
-
-        <br>
-        &mdash;
-        <br>
-
-        <span class="work-title">
-          "Pacific" and "Samuel"
-        </span>
-        <br>
-        <span class="work-body">
-          <em>Passwords</em>, Pomona College, Fall 2010
-        </span>
-        <br>
-        <span class="print">
-          print only
-        </span>
-
-      </div> -->
-
-    </center>
-
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>The Runes at Uppsala</h2>
+            <hr>
+            <img src="../img/runes-min.jpg" class="img-responsive img-centered" alt="">
+            <p>Digital poetry collection that explores the relationship between physical space, memory, and the experience of reading a poem.</p>
+            <ul class="list-inline item-details">
+              <li>
+                <strong>December 2016</strong>
+              </li>
+              <br>
+              <li>
+                <strong><a href="https://runesatuppsala.herokuapp.com/">Project here.</a>
+                </strong>
+              </li>
+              <br>
+              <li>
+                <strong><a href="https://github.com/cepowell/The-Runes-at-Uppsala">Code here.</a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-  {% include footer.html %}
+</div>

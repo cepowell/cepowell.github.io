@@ -1,0 +1,25 @@
+jobs:
+  - company: "Asana"
+    title: "Lead Web Engineer"
+    location: "San Francisco, CA"
+    date: "April 2019 to present"
+    url: "https://asana.com/?no-redirect"
+    icon: '../img/asana.png'
+  - company: "Gap Inc."
+    title: "Software Engineer II"
+    location: "San Francisco, CA"
+    date: "June 2017 to April 2019"
+    url: "https://www.gap.com"
+    icon: '../img/gap.png'
+
+schools:
+  - degree: "M.A., Interdisciplinary Computer Science"
+    name: "Mills College"
+    location: "Oakland, CA"
+    icon: '../img/mills.png'
+    url: 'http://www.scrippscollege.edu'
+  - degree: "B.A., English Literature"
+    name: "Scripps College"
+    location: "Claremont, CA"
+    icon: '../img/scripps.png'
+    url: 'https://www.mills.edu/'

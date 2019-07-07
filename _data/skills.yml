@@ -1,0 +1,44 @@
+languages:
+  - JavaScript
+  - HTML5
+  - CSS & Sass/SCSS
+  - Java
+  - Python
+  - Ruby
+  - Scala
+  - PHP
+  - Haskell
+  - Scheme
+  - YAML
+
+webtech:
+  - Templating languages (HandlebarsJS, Jade, EJS, Mustache, Liquid)
+  - Browser dev tools & cross-browser testing
+  - Web storage (local storage, session storage, cookies)
+  - Static site generators (Jekyll, Hugo)
+  - RESTful APIs
+  - HTTP
+  - Asynchronous JavaScript & associated libraries (Axios, fetch)
+  - Polyfills
+
+frameworks:
+  - React
+  - Node.js
+  - Express
+  - Angular
+  - Rails
+  - Knockout.js
+  - jQuery
+  - Lodash
+  - Bootstrap
+
+tools:
+  - Git
+  - NPM
+  - Webpack
+  - Babel
+  - Task runners (Gulp, Grunt)
+  - Continuous integration platforms (Jenkins, CircleCI)
+  - Storybook
+  - Semantic versioning tools (Lerna)
+  - Testing frameworks (Mocha, Jest, Enzyme, Jasmine)
