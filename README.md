@@ -1,5 +1,5 @@
 ## Personal Website
 
-Built with Jekyll, Bootstrap, SCSS, and GitHub Pages.
+Built with Jekyll and GitHub Pages. Uses Twitter and Instagram integrations.
 
-June 2017
+&copy; 2019
