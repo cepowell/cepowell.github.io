@@ -20,44 +20,8 @@
           </center>
         </div>
       </div>
-
-      <br/>
-      <br/>
-
-      <div class="row">
-        <div class="col-sm-6">
-          <center>
-            <div class="social-header"> Instagram </div>
-            <p id="instafeed"></p>
-          </center>
-        </div>
-        <div class="col-sm-6">
-          <center>
-            <div class="social-header right"> Twitter </div>
-              <a class="twitter-timeline" href="https://twitter.com/cait_for_short?ref_src=twsrc%5Etfw" data-tweet-limit="5">Tweets by cait_for_short</a>
-              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </center>
-        </div>
-      </div>
     </div>
   </div>
 
 
 {% include footer.html %}
-
-<script src="{{ site.data.global.url }}/assets/js/instafeed.min.js"></script>
-<script type="text/javascript">
-  var feed = new Instafeed({
-    get: 'user',
-    userId: '183940017',
-    limit: '9',
-    sortBy: 'most-recent',
-    resolution: 'standard_resolution',
-    accessToken: '183940017.fe134f4.35fb44cd55cc4a30a755d481d27fdad1',
-    clientId: 'fe134f4e995b4141af79cd6b300adfa7',
-    template: '<a href="{% raw %}{{link}}{% endraw %}" target="_blank"><img src="{% raw %}{{image}}{% endraw %}" /></a>'
-  });
-
-  feed.run();
-</script>
-<script src="{{ site.data.global.url }}/assets/js/instagram.js"></script>

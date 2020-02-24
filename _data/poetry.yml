@@ -1,6 +1,17 @@
 -
+  year: 2020
+  poems:
+    - title: '"Män som hatar kvinnor"'
+      url: "https://cagibilit.com/man-som-hatar-kvinnor/"
+      journal: "Cagibi"
+      issue: "Issue 9"
+-
   year: 2019
   poems:
+    - title: '"Flying Over Water" and "A Small and Inappropriate Organ"'
+      url: "https://afterthepause.com/2019/12/02/winter-2019/"
+      journal: "After the Pause"
+      issue: "Winter 2019"
     - title: '"epigenetic inheritance" and "Elimination Game"'
       url: "http://pidgeonholes.com/2019/07/two-poems-28/"
       journal: "Pidgeonholes"

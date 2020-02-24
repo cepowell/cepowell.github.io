@@ -12,24 +12,28 @@ languages:
   - YAML
 
 webtech:
-  - Templating languages (HandlebarsJS, Jade, EJS, Mustache, Liquid)
   - Browser dev tools & cross-browser testing
-  - Web storage (local storage, session storage, cookies)
-  - Static site generators (Jekyll, Hugo)
-  - RESTful APIs
+  - Translation & localization
+  - API development & data modeling
   - HTTP
   - Asynchronous JavaScript & associated libraries (Axios, fetch)
-  - Polyfills
+  - A/B testing and experimentation
+  - Architecture & system design
+  - Single-page application development
+  - Accessibility
+  - Responsive design
+  - Automated testing
 
 frameworks:
   - React
   - Node.js
   - Express
+  - Next.js
   - Angular
   - Rails
   - Knockout.js
   - jQuery
-  - Lodash
+  - GraphQL
   - Bootstrap
 
 tools:
@@ -38,7 +42,9 @@ tools:
   - Webpack
   - Babel
   - Task runners (Gulp, Grunt)
+  - Templating languages (HandlebarsJS, Jade, EJS, Mustache, Liquid)
   - Continuous integration platforms (Jenkins, CircleCI)
+  - Static site generators (Jekyll, Hugo)
   - Storybook
   - Semantic versioning tools (Lerna)
   - Testing frameworks (Mocha, Jest, Enzyme, Jasmine)
